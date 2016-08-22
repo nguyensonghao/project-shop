@@ -1,0 +1,138 @@
+.alert-notify{
+	position: fixed;
+    right: 0px;
+    z-index: 10;
+    min-width: 400px;
+    bottom: 0px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.title-content {
+	text-transform: uppercase;
+}
+
+.form-group .label {
+	color: #73879C;
+	text-align: left;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 30px;
+}
+
+.form-group input[type="text"], .form-group input[type="number"], .form-group input[type="email"], .form-group input[type="file"] {
+	padding-left: 6px;
+}
+
+.x_title h2 {
+	overflow: visible;
+}
+
+.required {
+	position: relative;
+    top: 3px;
+    left: 3px;
+    color: #E91E63;
+}
+
+.croper-image {
+	display: none;
+}
+
+.cropper-container {
+	margin-top: 20px;		
+}
+
+.error {
+	color: #ea3363;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.alert {
+  border-radius: 2px;
+}
+
+.list-label .label-avatar img, .list-category .category-avatar img {
+	height: 30px;
+}
+
+.list-label td {
+	line-height: 30px !important;
+}
+
+.td-action {
+	width: 120px;
+	text-align: center;
+}
+
+.btn-smallest {
+	padding: 4px !important;
+    font-size: 11px !important;
+}
+
+tr.headings {
+	border: 1px solid #3f5367;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+
+.alert-success .alert-link {
+  color: #2b542c;
+}
+
+.alert-info {
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+
+.alert-info .alert-link {
+  color: #245269;
+}
+
+.alert-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+}
+
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+
+.alert-warning .alert-link {
+  color: #66512c;
+}
+
+.alert-danger {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+.modal-delete .modal-dialog {
+  max-width: 450px;
+  min-width: 300px;
+}
